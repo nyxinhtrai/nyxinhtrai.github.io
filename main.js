@@ -38,7 +38,7 @@ function playStream(idAudioTag, stream) {
 
 const peer = new Peer({ 
     key: 'peerjs',
-    host: 'peerprojectnhom4.herokuapp.com',
+    host: 'https://audiocallgroup7.onrender.com',
     secure: true,
     port: 443
 });
