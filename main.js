@@ -1,4 +1,4 @@
-const socket = io('https://audiocallgroup7.000webhostapp.com/', {transports: ['websocket', 'polling', 'flashsocket']});
+const socket = io('https://audiocallgroup7.onrender.com', {transports: ['websocket', 'polling', 'flashsocket']});
 
 $('#div-chat').hide();
 
