@@ -16,7 +16,7 @@ h1 {
 	text-align: center;
 	margin: 64px 0;
 	font-size: 5rem;
-	color: #EB850C;
+	color: #0175EA;
 }
 
 #div-dang-ky {
@@ -24,10 +24,12 @@ h1 {
 	margin: 10% auto;
 	height: 300px;
 	width: 600px;
-	border: double 5px #EB850C;
+	border: double 5px #0175EA;
+  display: none;
 }
 
 .text-welcome {
+  color: #0175EA;
 	font-size: 2rem;
 	font-weight: 400;
 	font-family: "Lucida Console", "Courier New", monospace;
@@ -82,7 +84,7 @@ h1 {
 	height: 50px;
 	width: 120px;
 	font-size: 1.2rem;
-	background: linear-gradient(90deg, #fff1eb, #ace0f9);
+	background: linear-gradient(90deg, #EB9300, #A0CDFA);
 	border-radius: 999px;
 	box-sizing: border-box;
 	color: #000;
@@ -108,4 +110,64 @@ h1 {
 #btnSignUp:hover span {
   background: none;
   color: #000;
+}
+
+
+/* div-call */
+#div-chat {
+  /* border: 1px solid #000; */
+  text-align: center;
+}
+
+.online {
+  font-size: 2rem;
+	font-weight: 400;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#ulUser {
+  font-size: 1.2rem;
+  list-style: none;
+  color: green;
+}
+
+#remoteStream {
+  margin-top: 16px;
+  height: 100px;
+  width: 500px;
+}
+
+.yourID {
+  font-size: 2rem;
+	font-weight: 400;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#my-peer {
+  font-size: 1.5rem;
+}
+
+#remoteId {
+  margin-top: 16px;
+  height: 25px;
+  width: 500px;
+}
+
+#btnCall {
+  font-size: 2rem;
+  color: #fff;
+  border: none;
+  width: 60Px;
+  height: 60Px;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+  margin-top: 16px;
+  background-color: green;
+}
+
+#btnCall:hover {
+  background-color: #ccc;
+  color: #000;
+  cursor: pointer;
 }
