@@ -25,6 +25,7 @@ h1 {
 	height: 300px;
 	width: 600px;
 	border: double 5px #0175EA;
+  /* display: none; */
 }
 
 .text-welcome {
@@ -125,9 +126,14 @@ h1 {
 }
 
 #ulUser {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   list-style: none;
-  color: green;
+  color: #5BB318;
+}
+
+#ulUser:hover {
+  cursor: pointer;
+  color: #7DCE13;
 }
 
 #remoteStream {
