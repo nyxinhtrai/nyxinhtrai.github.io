@@ -8,7 +8,8 @@
     <script src="jquery.js"></script>
     <script src="peer.js"></script>
     <script src="socket.io.js"></script>
-    <link rel="stylesheet" href="index.css"></link>
+    <link rel="stylesheet" href="index.css">
+    </link>
 </head>
 
 <body>
@@ -19,7 +20,10 @@
         </ul>
         <audio id="remoteStream" controls></audio>
         <br /><br />
-        <h3 id="my-peer">Your Id: </h3>
+        <div>
+            <h3>Your Id: </h3>
+            <span id="my-peer"></span>
+        </div>
         <input type="text" id="remoteId" placeholder="Remote ID">
         <button id="btnCall">Call</button>
     </div>
