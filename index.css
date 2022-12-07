@@ -126,9 +126,10 @@ h1 {
 }
 
 #ulUser {
-  font-size: 1.5rem;
-  list-style: none;
-  color: #5BB318;
+    font-size: 1.6rem;
+    list-style: none;
+    color: #5BB318;
+    margin-right: 32px;
 }
 
 #ulUser:hover {
