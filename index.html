@@ -7,24 +7,27 @@
     <script src="jquery.js"></script>
     <script src="peer.js"></script>
     <script src="socket.io.js"></script>
-    <link rel="stylesheet" href="index.css">
-    </link>
+    <link rel="stylesheet" href="index.css"></link>
+    <script src="https://kit.fontawesome.com/43806157ba.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <h1> Call Audio - Group 7 </h1>
     <div id="div-chat">
-        <p>Online user:</p>
+        <p class="online">Online user:</p>
         <ul id="ulUser">
         </ul>
         <audio id="remoteStream" controls></audio>
         <br /><br />
         <div>
-            <h3>Your Id: </h3>
+            <h3 class="yourID">Your Id: </h3>
             <span id="my-peer"></span>
         </div>
         <input type="text" id="remoteId" placeholder="Remote ID">
-        <button id="btnCall">Call</button>
+        <button id="btnCall">
+            <i class="fa-solid fa-phone"></i>
+        </button>
+
     </div>
     <div id="div-dang-ky">
         <br /><br />
