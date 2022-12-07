@@ -1,4 +1,4 @@
-const socket = io("https://p2p-audio-call-server-production.up.railway.app/");
+const socket = io("https://audiocallgroup7githubio-production.up.railway.app/");
 
 $("#div-chat").hide();
 
