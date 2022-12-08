@@ -129,10 +129,16 @@ h1 {
     font-size: 1.6rem;
     list-style: none;
     color: #5BB318;
-    margin-right: 32px;
+/*     margin-right: 32px;	 */
+    width: 200px;
+    margin-left: 610px;
 }
 
-#ulUser:hover {
+#ulUser li {
+	margin-top: 8px;
+}
+
+#ulUser li:hover {
   cursor: pointer;
   color: #7DCE13;
 }
